@@ -1,0 +1,31 @@
+body{
+    background: color #1e1e1e;
+    color:white;
+    text-align: center;
+    font-family:sans-serif;
+}
+#controls{
+    margin:20px;
+}
+button{
+    padding:10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color:#4caf50;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:400px;
+    margin-top:50px;
+    gap:2px;
+}
+.bar{
+    width:20px;
+    background-color:#3498db;
+    border-radius: 2px 2px 0 0;
+}
