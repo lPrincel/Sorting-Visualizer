@@ -22,11 +22,11 @@ async function bubbleSort(){
 
     for(let i=0;i<array.length-1;i++){
         for(let j=0;j<array.length-i-1;j++){
-            bars[j].style.bakgroundColor="red";
+            bars[j].style.backgroundColor="red";
             bars[j+1].style.backgroundColor="red";
 
             await sleep(50);
-            if(array[j]>arr[j+1]){
+            if(array[j]>array[j+1]){
                 let temp=array[j];
                 array[j]=array[j+1];
                 array[j+1]=temp;
